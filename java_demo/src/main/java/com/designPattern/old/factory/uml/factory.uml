@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.designPattern.factory.service.impl.Rectangle</OriginalElement>
+  <nodes>
+    <node x="261.0" y="655.0">com.designPattern.factory.demo.FactoryDemo</node>
+    <node x="156.0" y="353.0">com.designPattern.factory.service.impl.Square</node>
+    <node x="0.0" y="655.0">com.designPattern.factory.demo.AbstractFactoryPatternDemo</node>
+    <node x="113.5" y="0.0">com.designPattern.factory.demo.AbstractFactory</node>
+    <node x="483.0" y="655.0">com.designPattern.factory.service.impl.Shape</node>
+    <node x="156.0" y="249.0">com.designPattern.factory.service.Shape</node>
+    <node x="445.0" y="452.0">com.designPattern.factory.demo.FactoryProducer</node>
+    <node x="227.0" y="127.0">com.designPattern.factory.demo.ColorFactory</node>
+    <node x="140.0" y="452.0">com.designPattern.factory.service.Color</node>
+    <node x="312.0" y="353.0">com.designPattern.factory.service.impl.Rectangle</node>
+    <node x="140.0" y="556.0">com.designPattern.factory.service.impl.Green</node>
+    <node x="0.0" y="353.0">com.designPattern.factory.service.impl.Circle</node>
+    <node x="280.0" y="556.0">com.designPattern.factory.service.impl.Blue</node>
+    <node x="0.0" y="556.0">com.designPattern.factory.service.impl.Red</node>
+    <node x="0.0" y="127.0">com.designPattern.factory.demo.ShapeFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.designPattern.factory.demo.ShapeFactory" target="com.designPattern.factory.demo.AbstractFactory">
+      <point x="0.0" y="-38.5" />
+      <point x="103.5" y="102.0" />
+      <point x="165.25" y="102.0" />
+      <point x="-51.75" y="38.5" />
+    </edge>
+    <edge source="com.designPattern.factory.service.impl.Rectangle" target="com.designPattern.factory.service.Shape">
+      <point x="0.0" y="-27.0" />
+      <point x="380.0" y="328.0" />
+      <point x="269.33333333333337" y="328.0" />
+      <point x="45.33333333333337" y="27.0" />
+    </edge>
+    <edge source="com.designPattern.factory.service.impl.Green" target="com.designPattern.factory.service.Color">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.designPattern.factory.service.impl.Blue" target="com.designPattern.factory.service.Color">
+      <point x="0.0" y="-27.0" />
+      <point x="340.0" y="531.0" />
+      <point x="240.0" y="531.0" />
+      <point x="40.0" y="27.0" />
+    </edge>
+    <edge source="com.designPattern.factory.service.impl.Circle" target="com.designPattern.factory.service.Shape">
+      <point x="0.0" y="-27.0" />
+      <point x="68.0" y="328.0" />
+      <point x="178.66666666666666" y="328.0" />
+      <point x="-45.33333333333334" y="27.0" />
+    </edge>
+    <edge source="com.designPattern.factory.service.impl.Square" target="com.designPattern.factory.service.Shape">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.designPattern.factory.demo.ColorFactory" target="com.designPattern.factory.demo.AbstractFactory">
+      <point x="0.0" y="-38.5" />
+      <point x="330.5" y="102.0" />
+      <point x="268.75" y="102.0" />
+      <point x="51.75" y="38.5" />
+    </edge>
+    <edge source="com.designPattern.factory.service.impl.Red" target="com.designPattern.factory.service.Color">
+      <point x="0.0" y="-27.0" />
+      <point x="60.0" y="531.0" />
+      <point x="160.0" y="531.0" />
+      <point x="-40.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="598.5" y="283.0" />
+  <SelectedNodes>
+    <node>com.designPattern.factory.service.impl.Shape</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
